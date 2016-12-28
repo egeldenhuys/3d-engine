@@ -1,0 +1,28 @@
+<html>
+<body>
+
+<script>
+var x2 = -10;
+var y2 = 1;
+
+var D = 10;
+var f = 2;
+
+var v = (Math.atan(D / f) * 180 / Math.PI);
+
+var q = Math.atan(x2 / (y2 + f) ) * 180 / Math.PI;
+var r = q / v;
+
+var d = r * D;
+
+document.write(" x2 = " + x2);
+document.write("<br /> y2 = " + y2);
+document.write("<br /> D = " + D);
+document.write("<br /> focalAngle = " + v);
+document.write("<br /> q = " + q);
+document.write("<br /> r = " + r);
+document.write("<br /> d = " + d);
+
+</script>
+</body>
+</head>
