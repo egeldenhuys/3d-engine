@@ -1,28 +1,15 @@
+<!DOCTYPE HTML>
+
 <html>
+  <head>
+    <title>3D</title>
+    <script src="src/gauss-jordan.js"></script>
+    <script src="src/Point.js"></script>
+    <script src="src/Line.js"></script>
+    <script src="src/main.js"></script>
+  </head>
 <body>
 
-<script>
-var x2 = -10;
-var y2 = 1;
-
-var D = 10;
-var f = 2;
-
-var v = (Math.atan(D / f) * 180 / Math.PI);
-
-var q = Math.atan(x2 / (y2 + f) ) * 180 / Math.PI;
-var r = q / v;
-
-var d = r * D;
-
-document.write(" x2 = " + x2);
-document.write("<br /> y2 = " + y2);
-document.write("<br /> D = " + D);
-document.write("<br /> focalAngle = " + v);
-document.write("<br /> q = " + q);
-document.write("<br /> r = " + r);
-document.write("<br /> d = " + d);
-
-</script>
+  <canvas id="render" width="500" height="500" style="border:1px solid #000000;"></canvas>
 </body>
 </head>
