@@ -9,6 +9,8 @@ function main() {
     let l2 = new Line(c, d);
 
     console.log(Line.getIntersection(l1, l2));
+
+    let plane = new Plane(1, 2, 3);
 }
 
 main();
